@@ -12,10 +12,20 @@ a) To assign only tasks, run:
     ```
     python StudentTaskRandomizer.py task
     ```
-    
-b) To assign only turns, run:
+
+b) To define number of tasks, run (number 4 is just an example):
+    ```
+    python StudentTaskRandomizer.py task 4
+    ```
+    or
+    ```
+    python StudentTaskRandomizer.py 4 task
+    ```
+
+c) To assign only turns, run:
     ```
         python StudentTaskRandomizer.py turn
     ```
 
-Number of tasks and students per turn ratio can be changed from the constants in the code itself.
+Number of options per task and students per turn ratio can be changed from the constants in the code itself.
+Same for the list of students.
