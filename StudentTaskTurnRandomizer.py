@@ -47,9 +47,9 @@ Get total of turns needed to distribute every student
 according to the student per turn ratio
 """
 def get_num_of_turns(students_list):
-    total_stundets = len(students_list)
+    total_students = len(students_list)
     
-    return math.ceil(total_stundets / STUDENTS_PER_TURN_RATIO)
+    return math.ceil(total_students / STUDENTS_PER_TURN_RATIO)
 
 
 """
