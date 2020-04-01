@@ -35,7 +35,7 @@ if len(sys.argv) == 4:
 TOTAL_OPTIONS_PER_TASK = 4
 STUDENTS_PER_TURN_RATIO = 4
 
-TOTAL_TASKS = 2
+TOTAL_TASKS = 4
 args_list = list(sys.argv)
 for arg in args_list:
     if arg.isdigit():
