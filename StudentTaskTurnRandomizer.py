@@ -28,7 +28,7 @@ if len(sys.argv) == 3:
         ASSIGN_TASK = False
         ASSIGN_TURN = True
 if len(sys.argv) == 4:
-    if sys.argv[3].lower() == 'task':
+    if sys.argv[2].lower() == 'task' or sys.argv[2].lower() == 'task':
         ASSIGN_TASK = True
         ASSIGN_TURN = False
 
